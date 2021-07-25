@@ -1,24 +1,46 @@
 * {
 	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title{
+	align-content: center;
+	font-size: 64px;
+	text-align: center;
+	border: 10px solid;
+	border-color: black;
+	margin: 10px;
+	background-color: lightgreen;
 }
 
-div {
+/* div {
 	color: blue;
+} */
+
+.menu-box{
+	width: 50%; /* this must change when responsive*/
+	border: 4px solid red;
+	background-color: lightgrey;
 }
 
 .button {
 	text-align: right;
 	border: 4px solid black;
-
+	float: right;
+	background-color: lightskyblue;
+	padding: 10px;
+	position: relative;
+	margin: auto;
+	width: auto;
 }
 
 .lorem {
-	background-color: blue;
+	/* background-color: blue; */
 	color: black;
 	padding: 10px;
 	border: 5px solid black;
 	width: 100%;
+	clear: right;
 	/*height: 50px;*/
-	margin-top: 50px;
+	/* margin-top: 50px; */
 	/*overflow: auto;*/
 }
