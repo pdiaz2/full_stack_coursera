@@ -12,35 +12,41 @@
 	background-color: lightgreen;
 }
 
-/* div {
-	color: blue;
-} */
-
+.row{
+	padding: 20px;
+	border: 4px solid black;
+}
 .menu-box{
-	width: 50%; /* this must change when responsive*/
-	border: 4px solid red;
+	width: 33.33%; /* this must change when responsive*/
 	background-color: lightgrey;
+	margin: 1%;
+	float: left;
+	padding: 20px;
+    border: 2px solid red;
 }
 
 .button {
-	text-align: right;
+	/* text-align: right;
 	border: 4px solid black;
 	float: right;
 	background-color: lightskyblue;
 	padding: 10px;
 	position: relative;
 	margin: auto;
-	width: auto;
+	width: auto; */
 }
 
 .lorem {
-	/* background-color: blue; */
 	color: black;
 	padding: 10px;
 	border: 5px solid black;
 	width: 100%;
 	clear: right;
-	/*height: 50px;*/
-	/* margin-top: 50px; */
-	/*overflow: auto;*/
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#first{
+		background-color: magenta;
+	}
+	
 }
